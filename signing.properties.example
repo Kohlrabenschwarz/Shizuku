@@ -1,0 +1,5 @@
+# Copy this file to signing.properties and keep the populated file private.
+KEYSTORE_FILE=../out/shizuku-release.p12
+KEYSTORE_PASSWORD=replace_me
+KEYSTORE_ALIAS=shizuku_release
+KEYSTORE_ALIAS_PASSWORD=replace_me
