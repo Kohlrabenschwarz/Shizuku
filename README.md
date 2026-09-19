@@ -58,9 +58,7 @@ All trademarks, names, icons, and upstream copyrights belong to their respective
 
 ## Licensing
 
-The original Shizuku and Shizuku-API source remains available under the **Apache License 2.0**. Its license text is preserved in [`LICENSE-APACHE-2.0`](LICENSE-APACHE-2.0), and attribution is recorded in [`NOTICE`](NOTICE).
-
-Original modifications made specifically for this fork are offered under the **MIT License** in [`LICENSE`](LICENSE). The MIT license does not replace or remove the Apache 2.0 terms that apply to upstream code. Distribution must comply with both the upstream notices and the terms applicable to each file or contribution.
+The Shizuku source and the original modifications made for this fork are distributed under the **Apache License 2.0**. The license text is available in [`LICENSE`](LICENSE) and [`LICENSE-APACHE-2.0`](LICENSE-APACHE-2.0), and attribution is recorded in [`NOTICE`](NOTICE). Vendored Shizuku-API components retain their upstream license and copyright notices in the [`api`](api) directory.
 
 ---
 
