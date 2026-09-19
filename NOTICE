@@ -1,0 +1,20 @@
+Shizuku 13.6.1 compatibility fork
+Copyright (c) 2026 emrea
+
+This repository is an unofficial derivative of:
+
+  Shizuku
+  Copyright (c) RikkaApps and Shizuku contributors
+  https://github.com/RikkaApps/Shizuku
+
+  Shizuku-API
+  Copyright (c) RikkaApps and Shizuku-API contributors
+  https://github.com/RikkaApps/Shizuku-API
+
+The upstream projects are licensed under the Apache License, Version 2.0.
+The complete upstream license is included as LICENSE-APACHE-2.0.
+
+The Android name and related marks are properties of Google LLC. Other names,
+marks, and icons belong to their respective owners.
+
+This fork is not affiliated with or endorsed by RikkaApps.
