@@ -1,0 +1,31 @@
+plugins {
+    id("idea")
+}
+
+idea.module {
+    excludeDirs += file('out')
+}
+
+subprojects {
+    plugins.withId("com.android.base") {
+        android {
+            compileSdk = 36
+            buildToolsVersion = "36.0.0"
+            ndkVersion = gradle.startParameter.projectProperties.get('shizuku.ndkVersion') ?: '29.0.13113456'
+            defaultConfig {
+                minSdk = 24
+                targetSdk = 36
+            }
+            compileOptions {
+                sourceCompatibility = JavaVersion.VERSION_21
+                targetCompatibility = JavaVersion.VERSION_21
+            }
+        }
+    }
+}
+
+apply from: 'api/manifest.gradle'
+ext {
+    versionCode = 1087
+    versionName = "${api_version_major}.6.1"
+}
